@@ -1,0 +1,19 @@
+Description: Add permission to bluetooth control for user into bluetooth 
+Forwarded: not-needed
+Origin: vendor
+Author: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+
+--- a/src/bluetooth.conf	2014-07-02 11:53:41.993135745 +0900
++++ b/src/bluetooth.conf	2014-07-02 11:54:19.161136125 +0900
+@@ -21,6 +21,11 @@
+     <allow send_interface="org.freedesktop.DBus.ObjectManager"/>
+   </policy>
+ 
++  <!-- allow users of bluetooth group to communicate -->
++  <policy group="bluetooth">
++    <allow send_destination="org.bluez"/>
++  </policy>
++
+   <policy at_console="true">
+     <allow send_destination="org.bluez"/>
+   </policy>
