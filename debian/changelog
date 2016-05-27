@@ -1,3 +1,19 @@
+bluez (5.23-2+rpi2) jessie; urgency=medium
+
+  [ Simon Long ]
+  * Allow any user to access bluetooth over dbus
+
+ -- Serge Schneider <serge@raspberrypi.org>  Fri, 27 May 2016 11:32:18 +0100
+
+bluez (5.23-2+rpi1) jessie; urgency=medium
+
+  * [Phil Elwell]
+    - 0050-bcm43xx-Add-bcm43xx-3wire-variant.patch
+    - 0051-bcm43xx-The-UART-speed-must-be-reset-after-the-firmw.patch
+    - 0052-Increase-firmware-load-timeout-to-30s.patch
+
+ -- Serge Schneider <serge@raspberrypi.org>  Wed, 17 Feb 2016 16:45:44 +0000
+
 bluez (5.23-2) unstable; urgency=medium
 
   * debian/control.

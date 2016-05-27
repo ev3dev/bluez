@@ -1,0 +1,11 @@
+--- a/src/bluetooth.conf
++++ b/src/bluetooth.conf
+@@ -37,7 +37,7 @@
+   </policy>
+ 
+   <policy context="default">
+-    <deny send_destination="org.bluez"/>
++    <allow send_destination="org.bluez"/>
+   </policy>
+ 
+ </busconfig>
