@@ -8,4 +8,3 @@ change_path_of_hogsuspend.patch
 0051-bcm43xx-The-UART-speed-must-be-reset-after-the-firmw.patch
 0052-Increase-firmware-load-timeout-to-30s.patch
 0053-Move-43xx-firmware-to-lib-firmware.patch
-0054-update-bluetooth.conf.patch
