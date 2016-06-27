@@ -1,3 +1,10 @@
+bluez (5.23-2ev3dev1) stable; urgency=medium
+
+  * ev3dev takeover
+  * Revert "Allow any user to access bluetooth over dbus"
+
+ -- David Lechner <david@lechnology.com>  Sun, 26 Jun 2016 19:49:52 -0500
+
 bluez (5.23-2+rpi2) jessie; urgency=medium
 
   [ Simon Long ]
